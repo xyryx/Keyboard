@@ -1,5 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-58ee0eeb9728c886b38ac05784f114c019606d15 refs/heads/master
-9c1d27302aac286bb65e263e8e54581f95ba73d4 refs/heads/upgradeToiOS12
-b6daeb9ddac4f8ee64d831cd4a7f519247b5a9eb refs/pull/1/head
-29adf44654743a35b4cade2f348c8afb338403d7 refs/tags/v0.1.0
