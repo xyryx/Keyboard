@@ -15,7 +15,9 @@ public class KeyModel : Mappable {
     }
     
     public func mapping(map: Map) {
-        
+        key <- map["key"]
+        diacritic <- map["diacritic"]
+        value <- map["value"]
     }
     
     var key : String?

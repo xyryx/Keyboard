@@ -12,7 +12,26 @@ import ObjectMapper
 
 public class KeyboardModel: Mappable {
     public func mapping(map: Map) {
-        
+        language <- map["language"]
+        keyFontSize <- map["keyFontSize"]
+        commandFontSize <- map["commandFontSize"]
+        space <- map["space"]
+        alphaKeyTitle <- map["alphaKeyTitle"]
+        punctuationKeyTitle <- map["punctuationKeyTitle"]
+        numericKeyTitle <- map["numericKeyTitle"]
+        emergency <- map["emergency"]
+        yahoo <- map["yahoo"]
+        search <- map["search"]
+        send <- map["send"]
+        next <- map["next"]
+        route <- map["route"]
+        go <- map["go"]
+        google <- map["google"]
+        join <- map["join"]
+        done <- map["done"]
+        defaultTitle <- map["defaultTitle"]
+        alpha <- map["alpha"]
+        shift <- map["shift"]
     }
     
     public required init?(map: Map) {
